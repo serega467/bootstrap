@@ -1,0 +1,176 @@
+:root {
+    --color1: #05b1b1;
+    --color2: #52339a;
+}
+
+header,
+footer,
+section {
+    padding: 100px;
+}
+
+header {
+    padding: 200px 0;
+}
+
+header,
+footer {
+    background: rgb(30, 67, 79);
+    background: linear-gradient(90deg, rgba(30, 67, 79, 1) 0%, rgba(36, 91, 156, 1) 17%, rgba(31, 169, 198, 1) 65%, rgba(10, 164, 195, 1) 98%);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-byu {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Треугольник в кружёчке - btn-play */
+.itd_play {
+    background-color: var(--color1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto 30px;
+    border: 1px solid #fff;
+    transition: all 0.2s ease;
+}
+
+.itd_triangle {
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-bottom-width: 14px;
+    border-top-width: 14px;
+    border-left: 22px solid black;
+    margin-left: 7px;
+}
+
+.btn-itd {
+    max-width: 140px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #ffffff !important;
+    padding: 8px 31px;
+    margin: auto;
+    /*сама кнопка станет по центру*/
+    border-radius: 5px;
+    border: 2px groove #f3c846;
+    background: #9e220a;
+    background: linear-gradient(to top, #9e220a, #f66d52);
+}
+
+.btn-itd:hover {
+    color: #cccccc !important;
+    background: #f66d52;
+    background: linear-gradient(to top, #f66d52, #9e220a);
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* О курсе */
+.about,
+.shedule,
+.buy {
+    background-color: #eee;
+}
+.about i {
+    font-size: 25px;
+    color: var(--color2);
+}
+.itd_circle {
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; /*отцентруем по горизонтали иконочный шрифт*/
+    align-items: center; /*отцентруем по вертикали иконочный шрифт (icon)*/
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+
+/* Для кого этот курс */
+.forwhom h5 {
+    padding: 50px;
+    border: 3px solid var(--color2);
+}
+
+.btn-2 {
+   display: block; 
+}
+
+/* Программа курса */
+.accordion-button:not(.collapsed) {
+    color: var(--bs-black);
+    background-color: var(--bs-white);
+}
+
+/* Процесс обучения */
+.learning h5 {
+    padding: 25px;
+    border: 3px solid var(--color2);
+}
+
+.info {
+    padding-top: 50px;
+}
+
+#buy {
+   paddin-bottom: 0px !important; 
+}
+
+#footer {
+    width: 100%;
+    margin-top: -60px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+/* цвета */
+.color1 {
+    color:#22d5d5;
+}
+.color2 {
+    color:#266e6e;
+}
+.bg1 {
+    background-color: #266e6e;
+}
+.bg2 {
+    background-color: #266e6e;
+}
